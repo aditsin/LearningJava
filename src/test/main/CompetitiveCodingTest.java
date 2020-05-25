@@ -32,4 +32,12 @@ public class CompetitiveCodingTest {
         ArrayList<Integer> ans = new ArrayList<>(Arrays.asList(an));
         assertTrue(LongestConsecutiveSeq.longestConsecutiveSeq(arr).equals(ans));
     }
+
+    @Test
+    public void testAggressiveCows(){
+        int stall = 5;
+        int cows = 3;
+        int []pos = {1, 2, 8, 4, 9};
+        assertEquals(3, AggressiveCows.findDistance(stall, cows, pos));
+    }
 }
