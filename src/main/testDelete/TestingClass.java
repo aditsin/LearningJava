@@ -1,4 +1,4 @@
-package main;
+package main.testDelete;
 
 public class TestingClass {
 
