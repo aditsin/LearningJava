@@ -26,7 +26,7 @@ import java.util.*;
 public class AggressiveCows {
 
     public static int findDistance(int stalls, int cows, int []pos) {
-
+        //this to check revert
         Arrays.sort(pos);
 
         int d = pos[stalls-1] - pos[0];
