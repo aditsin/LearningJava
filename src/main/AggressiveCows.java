@@ -26,7 +26,6 @@ import java.util.*;
 public class AggressiveCows {
 
     public static int findDistance(int stalls, int cows, int []pos) {
-        // Write your code here
 
         Arrays.sort(pos);
 
@@ -44,7 +43,7 @@ public class AggressiveCows {
             }
         }
 
-        //returning right side value 'r' because thats the value max that is possible.
+        //returning right side value 'r' because that's the value max that is possible.
         return r;
 
     }
